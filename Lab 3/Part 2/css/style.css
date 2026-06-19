@@ -78,3 +78,40 @@ a[href*="http"] {
   background: url("../images/external-link-52.png") no-repeat right center;
   background-size: 10px 10px;
 }
+
+ul,
+ol {
+  margin: 1.2rem 0;
+  line-height: 1.5;
+  list-style-type: circle;
+}
+
+nav ul{
+	padding-left: 0;
+}
+
+nav li {
+	list-style-type: none;
+	margin-bottom: 1rem;
+}
+nav li a{
+	font-family: "Oswald", sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	line-height: 3;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid #aa6666;
+}
+
+nav li a:focus,
+nav li a:hover {
+  color: white;
+  background-color: #aa6666;
+}
+
+nav li a:active {
+  color: white;
+  background-color: #662222;
+}
